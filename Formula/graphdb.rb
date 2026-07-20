@@ -1,28 +1,28 @@
 class Graphdb < Formula
   desc "In-memory graph database with a Cypher subset over HTTP/JSON"
   homepage "https://github.com/pmuston/homebrew-graphdb"
-  version "0.13.0"
+  version "0.14.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.13.0/graphdb-v0.13.0-darwin-arm64.tar.gz"
-      sha256 "212ebc9770639a60680290e997d2c6cf4d71b69b8dc6472cfdce3e0982bd9a28"
+      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.14.0/graphdb-v0.14.0-darwin-arm64.tar.gz"
+      sha256 "85b51ce95fbbf2a0f1d81d6add2408cf64c5f03af377e8f37ba0d5c4f910e90f"
     end
     on_intel do
-      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.13.0/graphdb-v0.13.0-darwin-amd64.tar.gz"
-      sha256 "74691cefcb5fe8d65d40c45687b31bacfbba3dd082b329d5ceb89ee737856dfb"
+      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.14.0/graphdb-v0.14.0-darwin-amd64.tar.gz"
+      sha256 "892070a60c5ae28ddf2666cbe67da23f4afde4e7cd5d201f3bbd55510dca9ca5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.13.0/graphdb-v0.13.0-linux-arm64.tar.gz"
-      sha256 "e13c07e1f6e1bb970bd9ff435e7616b00210ef8bf475cef4d266da1b103a4e72"
+      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.14.0/graphdb-v0.14.0-linux-arm64.tar.gz"
+      sha256 "37e62788fbbb00a687d59097b24bf48198e1d0e1612a31e391aa684dce7866d1"
     end
     on_intel do
-      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.13.0/graphdb-v0.13.0-linux-amd64.tar.gz"
-      sha256 "dd36b6c4bf704dde3be3282a7fb42ddea2d9b3ec8ecb6fc67ab1e1494658cec1"
+      url "https://github.com/pmuston/homebrew-graphdb/releases/download/v0.14.0/graphdb-v0.14.0-linux-amd64.tar.gz"
+      sha256 "d670f9ac259378ae5654b291c5379b33d0b3795a7704064c615c219870676ca0"
     end
   end
 
