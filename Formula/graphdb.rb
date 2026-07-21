@@ -2,7 +2,7 @@ class Graphdb < Formula
   desc "In-memory graph database with a Cypher subset over HTTP/JSON"
   homepage "https://github.com/pmuston/homebrew-graphdb"
   version "0.18.0"
-  license :cannot_represent
+  license "MIT"
 
   on_macos do
     on_arm do
