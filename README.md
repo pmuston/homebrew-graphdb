@@ -17,6 +17,17 @@ graphdb version
 > `brew trust` step above authorizes this one. If your Homebrew doesn't recognize
 > `brew trust`, it's older and will install without it.
 
+### Without Homebrew
+
+```bash
+curl -fsSL https://pmuston.github.io/install.sh | sh -s graphdb
+```
+
+Downloads the same tarballs attached to this repo's releases, checks them
+against `checksums.txt`, and installs the binary and man page under
+`~/.local/bin` — no root, no package manager. Re-run to upgrade. Pin a version
+with `VERSION=v0.23.0`, or relocate with `BIN_DIR=/usr/local/bin`.
+
 ## Quick start
 
 ```bash
